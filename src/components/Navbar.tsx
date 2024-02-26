@@ -52,8 +52,8 @@ function Navbar() {
             width="15"
             height="15"
             viewBox="0 0 15 15"
-            className="w-[2.2rem] h-[2.2rem] object-contain"
-            fill="currentColor"
+            fill="none"
+            className="w-[40%] h-[40%] object-cover"
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
