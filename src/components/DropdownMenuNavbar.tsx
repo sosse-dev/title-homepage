@@ -14,7 +14,7 @@ export function DropdownMenuNavbar() {
   return (
     <DropdownMenu>
       <DropdownMenuTrigger asChild>
-        <button className="px-4 py-3 bg-secondary rounded-lg hover:bg-primary border-2 text-zinc-100 font-semibold outline-0">
+        <button aria-label="navbar-menu" className="px-4 py-3 bg-secondary rounded-lg hover:bg-primary border-2 text-zinc-100 font-semibold outline-0">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="24"
