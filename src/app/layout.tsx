@@ -1,11 +1,11 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import Navbar from "@/components/Navbar";
-import Providers from "./provider";
+import Navbar from "@/components/animation/Navbar";
+import { DropdownMenuNavbar } from "@/components/DropdownMenuNavbar";
 
 export const metadata: Metadata = {
-  title: "engHelloMom",
-  description: "Learn english with engHelloMom!",
+  title: "TitleHomepage",
+  description: "Personal Project Website by Ahmad Sosse",
 };
 
 export default function RootLayout({
@@ -14,12 +14,16 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" suppressHydrationWarning={true}>
-      <body>
-        <Providers>
-          <Navbar />
-          {children}
-        </Providers>
+    <html
+      lang="en"
+      className="hide-scrollbar::-webkit-scrollbar hide-scrollbar"
+    >
+      <body className="bg-primary">
+        <Navbar />
+        <div className="fixed top-7 right-4 lg:hidden">
+          <DropdownMenuNavbar />
+        </div>
+        {children}
       </body>
     </html>
   );
