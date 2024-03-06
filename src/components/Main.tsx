@@ -22,15 +22,6 @@ function Main() {
               alt="book-pen-illustration"
             />
           </div>
-          {/* <div className="w-[20rem] h-[20rem] rounded-full overflow-hidden border-4 border-zinc-300 dark:border-zinc-100">
-            <Image
-              src="/LeavesImg.png"
-              width={140}
-              height={140}
-              className="w-full h-full object-cover"
-              alt="leaves"
-            />
-          </div> */}
         </div>
       </div>
       <div className="relative w-full h-fit py-20 bg-green-300 bg-opacity-50 dark:bg-opacity-30 flex flex-col justify-center items-center overflow-hidden">
@@ -40,7 +31,6 @@ function Main() {
         <h1 className="text-5xl lg:text-6xl mb-6 z-20 text-zinc-800 dark:text-zinc-100">
           {mainData.comment.title}
         </h1>
-        {/* comment */}
         <div className="w-fit h-fit flex flex-col md:flex-row gap-y-4 md:gap-x-4 z-20">
           <div className="w-[18rem] h-[22rem] bg-zinc-100 dark:bg-zinc-800 border-4 border-zinc-600 dark:border-zinc-200 grid place-items-center">
             <div className="w-[80%] h-[90%] flex flex-col">
