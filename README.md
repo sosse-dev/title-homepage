@@ -6,7 +6,7 @@
 
 **ENG**
 <br/>
-Using unique template color, and animation is focused here with
+Using unique Template Color and Layout. Animation is focused here with
 Framer Motion, and all it's Responsive.
 
 ## Running Locally in Development Mode
@@ -25,7 +25,7 @@ npm start
 
 **ID**
 <br/>
-Menggunakan template Warna dan Wayout yang unik, Huruf yang Tebal, animasi difokuskan disini
+Menggunakan template Warna dan Layout yang unik, Huruf yang Tebal, animasi difokuskan disini
 dengan menggunakan Framer Motion.
 
 ## Menjalankan secara lokal di mode Development
